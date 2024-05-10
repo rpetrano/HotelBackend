@@ -47,5 +47,5 @@ dotnet run
 
 11. You can now again [access Swagger](http://localhost:5022/swagger/index.html).
 
-12. The location of Lemax HQ is: 45.769841, 15.9500648
+12. A good location to use the search API is: 45.769841, 15.9500648
 
