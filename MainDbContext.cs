@@ -18,7 +18,7 @@ namespace HotelBackend
 
             // Add spatial index for optimized spatial queries
             // TODO: this can probably be done in a Model file as an annotation,
-            // I just haven't have time to find out how to do it
+            // I just haven't had time to find out how to do it
             modelBuilder.Entity<Hotel>()
                 .HasIndex(h => h.GeoLocation)
                 .HasMethod("GIST");
