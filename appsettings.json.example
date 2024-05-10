@@ -1,0 +1,19 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "SearchSettings": {
+    "MaxDistance": 10000,
+    "Limit": 100,
+    "PageSize": 10
+  },
+  "ConnectionStrings": {
+    "MainDatabase": "Server=localhost;Port=5432;Database=hotel;User Id=hotel;Password=supersecret",
+    "TestDatabase": "Server=localhost;Port=5432;Database=hotel_test;User Id=test;Password=supersecret"
+  },
+  "ApiKey": "supersecret"
+}
