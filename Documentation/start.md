@@ -1,3 +1,5 @@
+0. Please clone this repository and [HotelBackend.Tests](https://github.com/rpetrano/HotelBackend.Tests) into the same directory!
+
 1. Install the EF Core Tools
 
 ```
