@@ -51,6 +51,7 @@ namespace HotelBackend.Services
             await _hotelRepository.DeleteHotel(hotel);
         }
 
+        // The LIMIT OFFSET pagination is usually a bad idea, but it works and is fast to implement.
         public async Task<IEnumerable<HotelSearchResult>> SearchHotels(Point currentLocation, int page)
         {
             var offset = page * _options.Value.PageSize;
